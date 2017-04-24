@@ -1,0 +1,32 @@
+.f7-icons, .framework7-icons {
+    padding-right: 3px;
+	font-size: 20px
+	}
+	
+.list-block, .homelistblock{
+    padding-top: 4px;
+	}
+.list-block ul{
+	position: initial;
+}
+	.button.button-big {
+    border-radius: 21px;
+	}
+	
+.homebuttons{
+	padding-right: 16px;
+    padding-left: 16px;
+	margin: 1.5em 0;
+	}
+	
+.content-block-title, .titleforpages{
+padding-top: 0px;
+font-size: 17px;
+font-weight: bold;
+padding-bottom: 2px;
+}
+
+.card-header{
+    color: blue;
+    font-weight: bold;
+	}

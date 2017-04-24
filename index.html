@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Maths Easy</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+	<!-- Path to Framework7 icons -->
+	<link rel="stylesheet" href="css/framework7-icons.css">
+  </head>
+  <body>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+ 
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="center">Maths Easy</div>
+		</div>
+	</div>
+ 
+			<!-- Toolbar. In Material theme it should be inside of the page-->
+           <div class="toolbar toolbar-bottom">
+				<div class="toolbar-inner">
+					<a href="index.html" class="link"><i class="f7-icons size-22">collection</i>Lessons</a>
+					<a href="about.html" class="link"><i class="f7-icons size-22">info</i>About</a>
+					<a href="contact.html" class="link"><i class="f7-icons size-22">chat</i>Contact</a>
+				</div>
+			</div>
+ 
+            <!-- Scrollable page content -->
+    <div class="page-content">
+		<div class="list-block homelistblock">
+			 <ul>
+				<li><p class="homebuttons"><a href="numbersystem.html" class="button button-big button-fill button-raised color-pink">Number System</a></p></li>
+				<li><p class="homebuttons"><a href="average.html" class="button button-big button-fill button-raised color-red">Average</a></p></li>
+				<li><p class="homebuttons"><a href="timedistanceandwork.html" class="button button-big button-fill button-raised color-cyan">Time Distance & Work</a></p></li>
+				<li><p class="homebuttons"><a href="percentage.html" class="button button-big button-fill button-raised color-green">Percentage</a></p></li>
+				<li><p class="homebuttons"><a href="profitandloss.html" class="button button-big button-fill button-raised color-purple">Profit & Loss</a></p></li>
+				<li><p class="homebuttons"><a href="simpleandcompound.html" class="button button-big button-fill button-raised color-indigo">Simple & Compound Interest</a></p></li>
+			</ul>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+	<!-- Path to your cordova js-->
+    <script type="text/javascript" src="js/index.js"></script>
+	<!-- For Maths Expressions -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </body>
+</html> 
