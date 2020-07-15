@@ -6,4 +6,4 @@ For the tuorial Visit https://alapan.me
 [Part 1](https://www.alapan.me/first-android-app-framework7-cordova-part1/) | [Part 2](https://www.alapan.me/first-android-app-framework7-cordova-part2/) 
 
 # App Demo
-![Maths Easy App](https://imgur.com/a/bZ7GwbI)
+![Maths Easy App](https://i.imgur.com/c4KiAp0.gif)
