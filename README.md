@@ -1,6 +1,5 @@
 # Maths-Easy
-App is developed as a part of a series depicting Android App creation with the help of Framework7 &amp; Cordova.
-For the tuorial Visit https://alapan.me
+Maths Easy is a Hybrid Android app created using Framework7(v1), Apache Cordova and MathJax. This app was built to demonstrate a simple and intuitive way to display Maths formulas through an App. 
 
 # Tutorial Links
 [Part 1](https://www.alapan.me/first-android-app-framework7-cordova-part1/) | [Part 2](https://www.alapan.me/first-android-app-framework7-cordova-part2/) 
